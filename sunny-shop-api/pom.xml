@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.eai</groupId>
+    <artifactId>sunny-master</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>sunny-shop-api</artifactId>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>sunny-shop-member-api</module>
+  	<module>sunny-shop-order-api</module>
+  </modules>
+  
+  <dependencies>
+     <dependency>
+		<groupId>com.eai</groupId>
+		<artifactId>sunny-common</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+     </dependency>
+  </dependencies>
+</project>
