@@ -1,0 +1,11 @@
+server:
+  port: 8780
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: sunny-zipkin
+  datasource:
+    username: root
+    password: root
